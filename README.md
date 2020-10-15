@@ -8,7 +8,7 @@
 ## Introduction: Why Inheritance?
 
 In the real-world, different entities (people, animals, cars, you name it) are related in various ways. Within a single entity or group, there exist systems of classification. For example, the "dogs" entity or category includes pugs, corgis, labs, etc. All of these breeds share common features because they are all dogs. But they all have certain unique traits as well.
-
+git@github.com:jrcliff/ruby-oo-inheritance-defining-inheritance.git
 Another example: you are writing a web application in which users are either admins, instructors or students. All of these entities are "users" and have common features, but they all have some unique traits as well.
 
 How can our code reflect that fact that these different categories of things all share some, or even many, characteristics but all have some unique attributes as well? Well, we could write separate admin, instructor and student class that each contain repetitious code to lend each of these classes shared attributes and behaviors. We know, however, that repetitious code is always something to be avoided. Not only is it time consuming, but what happens when we need to make a change to this shared behavior? We'd have to code the same change in three places.
